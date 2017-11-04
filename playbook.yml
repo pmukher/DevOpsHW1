@@ -1,0 +1,12 @@
+- hosts: node0
+  become: yes
+  tasks:
+        - name: NGINX | Installing NGINX
+          apt:
+            pkg: nginx
+            state: installed
+            update-cache: true
+        - name: NGINX | Start NGINX
+          service:
+            name: nginx
+            state: started

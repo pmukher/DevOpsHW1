@@ -1,0 +1,1 @@
+node0 ansible_ssh_host=52.39.4.208 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=EC2KeyPair2.pem

@@ -1,0 +1,12 @@
+{
+	"name": "foo",
+	"version": "3.10.3",
+	"description": "json file updating the npm",
+	"dependencies": {
+		"node-ansible": "latest",
+		"needle": "latest",
+		"sleep": "latest",
+		"prompt": "latest",
+		"readline": "latest"
+	}
+}
